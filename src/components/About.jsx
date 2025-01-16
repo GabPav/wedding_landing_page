@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section className="about-section py-20 px-8 md:px-32 text-center">
-      <h2 className="text-4xl font-semibold mb-6 font-poppins-300">About Us</h2>
+      <h2 className="text-4xl font-semibold mb-6 font-poppins-300 text-gray-600">About Us</h2>
       
       <blockquote className="text-3xl italic text-gray-700 mb-8 mx-auto max-w-3xl font-great-vibes">
         Your love, quietly captured.

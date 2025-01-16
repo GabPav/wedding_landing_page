@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <section className="bg-gray-50 py-20 px-8 md:px-32">
-      <h2 className="text-4xl font-semibold mb-10 text-center font-poppins-300 text-gray-800">
+      <h2 className="text-3xl text-center mb-12 text-gray-600 font-poppins-300">
         Contact Us
       </h2>
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
