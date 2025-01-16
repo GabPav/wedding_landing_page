@@ -16,10 +16,16 @@ function App() {
     <div className='w-full h-full absolute'>
       <Navbar />
       <Hero />
+      <div id='about'>
       <About />
+      </div>
+      <div id='gallery'>
       <Gallery />
+      </div>
+      <div id='testimonials'>
       <Testimonials />
-      <ContactUs />
+      </div>
+      <div id='contact'><ContactUs /></div>
       <Footer />
     </div>
   )

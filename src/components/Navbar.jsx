@@ -14,26 +14,26 @@ const Navbar = () => {
                        after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
           HOME
         </li>
-        <li className="relative cursor-pointer text-gray-500 transition-all font-poppins-300 
+        <a href="#about" className="relative cursor-pointer text-gray-500 transition-all font-poppins-300 
                        after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-gray-400 
                        after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
           ABOUT
-        </li>
-        <li className="relative cursor-pointer text-gray-500 transition-all font-poppins-300 
+        </a>
+        <a href="#gallery" className="relative cursor-pointer text-gray-500 transition-all font-poppins-300 
                        after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-gray-400 
                        after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
           GALLERY
-        </li>
-        <li className="relative cursor-pointer text-gray-500 transition-all font-poppins-300 
+        </a>
+        <a href="#testimonials" className="relative cursor-pointer text-gray-500 transition-all font-poppins-300 
                        after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-gray-400 
                        after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
           KIND WORDS
-        </li>
-        <li className="relative cursor-pointer text-gray-500 transition-all font-poppins-300 
+        </a>
+        <a href="#contact" className="relative cursor-pointer text-gray-500 transition-all font-poppins-300 
                        after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-gray-400 
                        after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
           CONTACT
-        </li>
+        </a>
       </ul>
 
       <i className="bx bx-menu block text-5xl cursor-pointer bx-icon-hidden text-gray-300" onClick={() => setIsOpen(!isOpen)}></i>
