@@ -9,29 +9,29 @@ const ContactUs = () => {
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Contact Info */}
         <div className="space-y-4">
-          <h3 className="text-2xl font-semibold text-gray-700">
+          <h3 className="text-2xl font-semibold text-gray-700 font-poppins-300">
             Let's Capture Your Special Moments
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 font-poppins-300">
             We would love to hear about your wedding plans and create
             unforgettable memories together! Feel free to get in touch with us
             through the form or the contact details below.
           </p>
           <div className="space-y-2">
-            <p className="text-gray-800">
+            <p className="text-gray-600 font-poppins-300">
               📞 <span className="font-medium">+1 234 567 890</span>
             </p>
-            <p className="text-gray-800">
+            <p className="text-gray-600 font-poppins-300">
               ✉️ <span className="font-medium">info@weddingphotos.com</span>
             </p>
-            <p className="text-gray-800">
+            <p className="text-gray-600 font-poppins-300">
               📍 <span className="font-medium">123 Love Lane, Wedding City</span>
             </p>
           </div>
         </div>
 
         {/* Contact Form */}
-        <form className="bg-white rounded-lg shadow-lg p-8 space-y-4">
+        <form className="bg-white rounded-lg shadow-lg p-8 space-y-4 font-poppins-300">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">
               Your Name
