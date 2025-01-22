@@ -17,10 +17,11 @@ const About = () => {
       <p className="text-lg text-gray-700 mb-8 font-poppins-300">
         Every couple's story is unique, and I take great pride in documenting those special moments in a way that feels authentic and meaningful. Let's make your day unforgettable.
       </p>
-      
-      <button className="bg-gray-500 text-white px-6 py-3 rounded-md text-xl font-poppins-300 hover:bg-gray-600 transition duration-300">
+      <a href="#contact">
+      <button className="bg-gray-500 text-white px-6 py-3 rounded-md text-xl font-poppins-300 hover:bg-gray-600 transition duration-300" id="contact-button">
         Contact Us
       </button>
+      </a>
     </section>
   );
 };
