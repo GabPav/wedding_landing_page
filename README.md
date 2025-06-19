@@ -1,6 +1,6 @@
 # Wedding Landing Page 💍
 
-A modern, elegant landing page for a wedding announcement, built using React and Tailwind CSS.  
+A modern, elegant landing page for a wedding photos, built using React and Tailwind CSS.  
 This project was designed to be both functional and visually engaging, providing key wedding information and RSVP functionality in a responsive and user-friendly way.
 
 ## 🌐 Live Preview
